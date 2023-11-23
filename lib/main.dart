@@ -20,7 +20,9 @@ import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   await initializeDateFormatting("id_ID", null);
+
   final NotificationService notificationService = NotificationService();
   final deviceInfo = await DeviceInfoPlugin().deviceInfo;
   final androidSdkVersion =
