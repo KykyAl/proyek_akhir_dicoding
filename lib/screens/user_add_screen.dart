@@ -38,7 +38,7 @@ class _UserAddScreenState extends State<UserAddScreen> {
         MediaQuery.of(context).orientation == Orientation.landscape;
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Detail Form'),
+          title: const Text('Detail Form anda'),
         ),
         body: Form(
             key: _fromKey,
