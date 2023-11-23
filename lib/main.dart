@@ -74,7 +74,9 @@ class _CatatanState extends State<Catatan> {
                                   child: CircularProgressIndicator(),
                                 ),
                               )
-                            : const SplashScreen()),
+                            : const SplashScreen(),
+                    future: null,
+                  ),
             routes: {
               UserAddScreen.routeName: (context) => const UserAddScreen(),
               UserNoteScreen.routeName: (context) => const UserNoteScreen(),
